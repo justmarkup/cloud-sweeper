@@ -36,5 +36,10 @@
 <script src="js/interaction.js"></script>
 <script src="js/game.js"></script>
 
+<script>
+if (navigator.serviceWorker) {
+	navigator.serviceWorker.register('serviceworker.js');
+}
+</script>
 </body>
 </html>
